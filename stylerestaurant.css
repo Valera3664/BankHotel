@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+}
+
+.rest-sct1 {
+    padding: 0px 10px;
+}
+
+.safe-restaurant-title {
+    color:  #FCD043;
+    font-family: Miracle;
+    width: 300px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+#menu ul li a {
+    color: rgb(237, 226, 226);
+}
+
+.safe-restaurant-subtitle {
+    color: #FFFCF6;
+    font-family: Miracle;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+.label-text-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    align-items: end;
+}
+
+.one-of-a-kind-text {
+    color: #FFFCF6;
+    width: 270px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px; 
+}
+
+
+.at-tour-service-text {
+    color: #FFFCF6;
+    width: 340px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.at-yourserviceimg1 {
+    display: none;
+}
+ 
+.rest-sct2 {
+    padding: 0 10px;
+}
+.rest-sct2div {
+    display: flex;
+    justify-content: end;
+}
+
+.rest-sct2text {
+    color:  #FFFCF6;
+    width: 340px;
+    font-family: Miracle;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+    letter-spacing: 0.9px;
+}
+
+.rest-sct2div3 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+.rest-sct2desc {
+    color: #FFFCF6;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.rest-sct2desc2 {
+    color: #FCD043;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.allroomdec-divr {
+    display:none;
+}
+
+@media screen and (min-width: 700px) {
+    
+
+}
+
+@media screen and (min-width: 900px) {
+
+
+}
+
+@media screen and (min-width: 1000px) {
+
+
+    .safe-restaurant-title {
+        width: 100%;
+        font-size: 100px;
+    }
+    .one-of-a-kind-div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .safe-restaurant-subtitle {
+        font-size: 30px;
+    }
+
+    .one-of-a-kind-text {
+        margin-right: 40px;
+       
+    }
+
+    .at-yourserviceimg1 {
+        display: block;
+    }
+
+    .at-yourserviceimg2 {
+        width: 355px;
+    }
+
+    .at-yourserviceimgdiv {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+    }
+    .at-yourservicediv {
+        margin-top: 100px;
+    }
+ 
+    .allroomdec-divr {
+        display: block;
+
+        margin-top: -130px;
+    }
+    .allroomdec-div {
+        display: none;
+    }
+    .rest-sct2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .img-rest-last {
+        width:600px ;
+        height: 400px;
+    }
+
+    .rest-sct2text {
+        width: 590px;
+    }
+    
+    .restaurantlastimg {
+        height: 400px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+
+    .at-yourserviceimg1  {
+        width: 800px;
+        height: 600px;
+        margin-bottom: -50px;
+    }
+    .at-yourserviceimg2 {
+        height: 400px;
+    }
+
+}
+
+
+

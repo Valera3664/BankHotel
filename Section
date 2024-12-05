@@ -1,0 +1,35 @@
+<main>
+  <!-- About Us Section -->
+  <section class="about-us">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>
+        At Bank Hotel, we offer a blend of luxury, comfort, and a unique atmosphere. Located in the heart of the city, our hotel is perfect for both leisure and business travelers.
+      </p>
+    </div>
+  </section>
+
+  <!-- Rooms & Apartments Section -->
+  <section class="rooms">
+    <div class="container">
+      <h2>Rooms & Apartments</h2>
+      <div class="room-list">
+        <div class="room">
+          <img src="room1.jpg" alt="Deluxe Room">
+          <h3>Deluxe Room</h3>
+          <p>Comfort and elegance with modern amenities.</p>
+        </div>
+        <div class="room">
+          <img src="room2.jpg" alt="Suite">
+          <h3>Suite</h3>
+          <p>Experience luxury with a spacious and stylish suite.</p>
+        </div>
+        <div class="room">
+          <img src="room3.jpg" alt="Family Apartment">
+          <h3>Family Apartment</h3>
+          <p>A perfect option for families, with all the conveniences of home.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

@@ -1,0 +1,40 @@
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <div class="container">
+      <h2>Our Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="gallery1.jpg" alt="Hotel Room">
+        </div>
+        <div class="gallery-item">
+          <img src="gallery2.jpg" alt="Hotel Lobby">
+        </div>
+        <div class="gallery-item">
+          <img src="gallery3.jpg" alt="Restaurant">
+        </div>
+        <div class="gallery-item">
+          <img src="gallery4.jpg" alt="Outdoor View">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>Bank Hotel</h3>
+        </div>
+        <ul class="footer-menu">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+        <div class="footer-contact">
+          <p>Email: info@bankhotel.com</p>
+          <p>Phone: +123 456 7890</p>
+        </div>
+      </div>
+    </div>
+  </footer>

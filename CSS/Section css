@@ -1,0 +1,66 @@
+/* About Us Section */
+.about-us {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+}
+
+.about-us h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #203a2e;
+}
+
+.about-us p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #555;
+}
+
+/* Rooms & Apartments Section */
+.rooms {
+  padding: 2rem 0;
+  background-color: #fff;
+}
+
+.rooms h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #203a2e;
+  margin-bottom: 2rem;
+}
+
+.room-list {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.room {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  flex: 1;
+}
+
+.room img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.room h3 {
+  font-size: 1.5rem;
+  color: #203a2e;
+  margin-bottom: 0.5rem;
+}
+
+.room p {
+  font-size: 1rem;
+  color: #555;
+}

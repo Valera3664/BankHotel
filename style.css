@@ -1,0 +1,1790 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@font-face {
+    font-family: Hel;
+    src: url();
+} */
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: #313F38;
+    /* overflow-x: hidden; */
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 16px;
+    /* width: 100%; */
+    /* background-color: red; */
+    height:100px;
+
+}
+
+.bankhotel{
+    color: #FFFCF6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.nav-list {
+    display: none;
+}
+ 
+.nav-list-a {
+    color:  #FFFCF6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+ul, li, a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.tel-nr {
+    color: var(--White, #FFFCF6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    text-transform: uppercase;
+    display: none;
+    }
+
+.sct-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 16px;
+    
+}    
+
+.sct-1-bankhotel {
+    color: #FFFCF6;
+    text-align: center;
+    margin-top: 0;
+    font-family: Miracle;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.sct-1-bankhotel span {
+    color: #FCD043;
+    font-family: Miracle;
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.sct-1-minimenu {
+    color: #FCD043;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.sct-1-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 3px;
+}
+
+.sct-1-texthotel {
+    margin-top: 24px;
+    width: 291px;
+    color:  #FFFCF6;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 24px; 
+}
+
+.sct-1-1st-btn {
+    display: none;
+}
+
+
+.sct-1-2nd-btn {
+    display: none;
+}
+
+.sct-1-star-icon {
+    display: none;
+}
+
+
+.sct-1-banner-div {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 40px;
+}
+
+.sct-1-star-p {
+    display: none;
+}
+
+.sct-1-banner {
+
+    width: 96%;
+    margin: 40px 10px 0px;
+}
+
+.sct-1-bookroom-div {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+
+}
+.p-bookroom {
+    color: var(--Text, #1B3B36);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+
+}
+
+.sct-1-banner-responsive {
+    display: none;
+}
+
+.sct-1-select-option {
+    display: none;
+}
+
+.sct-1foot-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+
+.sct-1foot-info1 {
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.sct-1foot-info2{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFCF6;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.sct-2 {
+    margin-top: 60px;
+    padding-bottom: 100px;
+    padding: 0px 20px 100px;
+
+}
+
+.sct-2-about {
+    text-align: start;
+    margin-bottom: 0;
+    color: #FCD043;
+}
+
+.sct-2-us {
+    margin-top: 0;
+    color: #FCD043;
+}
+.aboutus-img1 {
+    width: 100%;
+}
+
+.sct2-2div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    height: 120px;
+
+}
+
+.sct2-1div {
+    position: relative;
+
+
+}
+
+.sct-2-highquality {
+    align-items: center;
+    display: flex;
+    color: white;
+    font-family: Miracle;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px; 
+    text-transform: capitalize;
+
+}
+
+.highquality-text {
+    position: absolute;
+    color:  #FFFCF6;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    width: 400px;
+    top: 80px;
+   padding-bottom:  100px;
+
+
+}
+
+.sct-2-responsive {
+    display: none;
+}
+
+.sct-3 {
+    display: flex;
+    flex-direction: column;
+    /* height: 1140px; */
+    background-color: #FFFCF6;
+    /* height: 110%; */
+    margin-top:280px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 40px 18px;
+    margin-bottom: 0;
+}
+
+
+.sct-3-70rooms {
+    text-align: end;
+    color: var(--Text, #1B3B36);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-right: 20px;
+
+}
+
+.sct-3-rooms-apartments {
+    color:  #1B3B36;
+    font-family: Miracle;
+    font-weight: 400;
+    line-height: 60px; 
+    text-transform: uppercase;
+
+}
+
+.sct-3-rooom-decoration {
+    width: 170px;
+    color: var(--Text, #1B3B36);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.book-room-img {
+    display: flex;
+    align-items: center;
+    width: 96%;
+    margin-left: 4px;
+ 
+}
+
+.btn-goleft.svg {
+    display: flex;
+    justify-content: end;
+    margin-left: 10px;
+}
+
+.sct-3-book-room-img-div {
+    height: 609px;
+    /* width: fit-content; */
+     max-height: 1200px; 
+    max-width: 1000px; 
+    margin-top: 47px;
+    display: flex;
+
+    position: relative; 
+margin-right: -14px;
+}
+
+
+
+.sct-3-rooms-apartments-content1 {
+    display: none;
+}
+
+.sct-3-rooms-apartments-content2 {
+    display: none;
+}
+
+.sct-3-bookroom-btn {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position:absolute;
+
+     top: 76%;
+    right: 6%; 
+}
+
+.sct-3-content1-img1 {
+    display: none;
+}
+
+.sct-4 {
+    background-color: white;
+    margin-top: -100px;
+    padding: 0;
+}
+
+.sct-4-container-p1 {
+    margin-bottom: 0;
+    color: var(--Text, #1B3B36);
+    font-family: Miracle;
+    font-size: 80px;
+    font-weight: 400;
+    /* line-height: 30px; */
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.ourfacilities-star {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-top: 0px;
+    
+}
+
+.ourfacilities-art {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sct-4-art-congress {
+    width: 140px;
+    position: absolute;
+    right: 10px;
+    color: #1B3B36;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.ourfacilities-container {
+    display: flex;
+    flex-direction: column;
+margin-left: 70px;
+
+}
+
+.ourfacilities-imgdiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.ourfacilities-img1 {
+    display: flex;
+    width: 240px;
+    height: 140px;
+}
+
+.ourfacilities-imgdiv-resposive {
+    display: none;
+}
+
+.bankhotel-offers-p-r {
+    display: none;
+}
+
+
+.bankhotel-offers-p-div {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+.bankhotel-offers-p {
+    width: 200px;
+    margin-top: 60px;
+    color:  #1B3B36;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.sct-4-art-congress-r {
+    display: none;
+}
+
+.sct-4-div2-img1 {
+    margin: 10px 10px;
+}
+
+
+.sct-4 {
+    height: 2800px;
+    margin-bottom: 40px;
+}
+.ice-res-01{
+    color: var(--Text, #1B3B36);
+    font-family: Miracle;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+
+}
+
+.sct-4-art-congress-rfull {
+    display: none;
+}
+
+.ourfacilities-img2-r {
+    display: none;
+}
+
+.bankhotel-offers-p-resposive {
+    display: none;
+}
+
+
+.sct-4-ice-restaurant-container {
+    padding-bottom: 40px;
+    padding-right: 0px;
+    margin-right: 0;
+}
+
+._01-ice-restaurant-div {
+    display: flex;
+    justify-content: space-between;
+
+}
+.ice, .restaurant {
+color: var(--Text, #1B3B36);
+font-family: Miracle;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+text-transform: capitalize;
+}
+
+.ice-restaurant-div1 {
+    padding-right: 10px;
+}
+
+.ice-restaurant-thehotel-text {
+    width: 230px;
+    color: #1B3B36;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px; 
+}
+
+.sct-4-div2-img1 {
+    margin-left: 14px;
+}
+
+.sct-4-div2-img1-r {
+    display: none;
+}
+
+
+.ice-res-01-r {
+    display: none;
+}
+
+
+.ice-rs-02-03, .ice-rs-03-03  {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+._02-conf-hall {
+    color:  #1B3B36;
+    font-family: Miracle;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 20px; 
+    text-transform: capitalize;
+}
+
+
+.ice-rs-02-nr, .ice-rs-03-nr {
+    height: 60px;
+   margin-left: 40px;
+  margin-top: -50px;
+
+}
+
+.nr-02, .nr-03 {
+    position: absolute;
+    text-align: end;
+    color: #1B3B36;
+    font-family: Miracle;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    right: 10px;
+}
+
+.ice-rs-03-03 {
+    margin-top: 60px;
+}
+
+.ice-rs-02-03-responsive {
+    display: none;
+}
+
+.ice-rs-03-03-responsive {
+    display: none;
+}
+
+.line-vector-2 {
+    display: none;
+}
+
+.ice-restaurant-art-congress {
+    margin-left: -34px;
+}
+
+
+.sct-6 {
+    position: relative;
+    height: 400px;
+    width: 101%;
+    margin-top:-40px;
+    margin-top: -100px;
+    /* margin-right: -10px; */
+
+}
+
+.sct-6-best-apartments {
+    position: absolute;
+    width: 300px;
+    top: 0;
+    color:  #FCD043;
+    font-family: Miracle;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 60px; 
+    text-transform: uppercase;
+}
+
+.sct-6-allroomdecoration-text {
+    position: absolute;
+    /* left: 50%; */
+    right: 0;
+    top: 160%;
+    width: 220px;
+    color: #FCD043;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.bestapartment1 {
+    position: relative;
+    width: ;
+}
+.bestapartment1-r {
+    display: none;
+}
+
+
+/* .divv {
+    display: flex;
+    justify-content: center;
+} */
+.divv, .imggg01, .imggg02,.imggg03, .imggg04, .imggg00 {
+    display: flex;
+    justify-content: center;
+    height: 140px;
+    width: 130px;
+    position: absolute;
+
+
+}
+
+.ourgallery-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 270px;
+}
+
+.divv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-left: 40px;
+}
+ 
+
+
+.imggg01 {
+    width: 150px;
+    height: 230px;
+    top: 50px;
+    left: 10%;
+}
+.imggg02 {
+    width: 220px;
+    height: 147px;
+    top: 360px;
+    left: 10%;
+    opacity: 0.4;
+    
+}
+.imggg03{
+    display: flex;
+    justify-content: center;
+    top: 160px;
+    left: 80%;
+    width: 220px;
+    height: 340px;
+    z-index: 10;
+
+}
+.imggg04{
+    top: 0px;
+    left: 150%;
+    z-index: 4;
+}
+.imggg00 {
+    width: 200px;
+    height: 160px;
+    top: 100px;
+    left: 120%;
+    opacity: 0.4;
+}
+
+
+
+.title-ourgallery{
+    width: 300px;
+    color: #FCD043;
+    text-align: center;
+    font-family: Miracle;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px; 
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.icon-title-ourgallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ourgallery-text {
+    text-align: center;
+    margin: 0px 10px;
+
+    max-width: 360px;
+    color: #FFFCF6;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.div-polygon-text {
+    display: flex;
+    justify-content: start;
+    gap: 40px;
+    margin-top: 600px;
+    margin-left: 220px;
+    /* margin-left: 20px; */
+
+}
+
+.polygon-icon-text {
+    width:300px;
+    color: #FFFCF6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.divv-r {
+    display: none;
+} 
+
+.div-polygon-text-r {
+    display: none;
+    /* margin-left: 40px; */
+
+}
+
+.ourgallery-bankhotel-r {
+    display: none;
+}
+
+footer {
+    background-color: white;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.footer-nr {
+    color: #1B3B36;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.footer-div-location {
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+.footer-location {
+    color: #1B3B36;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase; 
+}
+
+.footer-div-title-star {
+    display: flex;
+}
+
+.footer-title-star {
+    color:  #1B3B36;
+    font-family: Miracle;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 84px; 
+    text-transform: uppercase;
+}
+
+#menu ul li a {
+    color: rgb(237, 226, 226);
+}
+.footer-last-title {
+    position: relative;
+    margin-top: -60px;
+    margin-bottom: 0;
+    margin-right: 20px;
+    color:  #FCD043;
+    font-family: Miracle;
+    text-align: end;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 84px; 
+    text-transform: uppercase;
+    z-index: 2;
+}
+.footer-img {
+    position: relative;
+    top: -60px;
+
+    bottom: 40%;
+    left: 50%;
+    z-index: 1;
+}
+
+.footer-last-title-div {
+    position: relative;
+}
+
+
+.footer-polygon-div {
+    position: relative;
+    margin-top: -140px;;
+}
+
+.footer-book-room {
+    position: absolute;
+    top: 28%;
+    left: 4%;
+    color:  #1B3B36;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.checkout-div {
+    display: none;
+}
+
+.find-room {
+    display: none;
+}
+
+.footer-div-infos {
+    display: none;
+}
+
+.footer-aboutuslastt {
+    color:  #1B3B36;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+/*  */
+
+#menu {
+    color: grey;
+}
+
+#burger-menu {
+	cursor: pointer;
+	height: 27px;
+	width: 27px;
+	margin: 50px;
+	overflow: visible;
+	position: relative;
+	z-index: 2;
+
+	    
+	span,
+	span:before,
+	span:after {
+		background: #fff;
+		display: block;
+		height: 2px;
+		opacity: 1;
+		position: absolute;
+		transition: 0.6s ease-in-out; 
+	}
+}
+#menu {
+    margin-left: -16px;
+    padding-left: 20px;
+	z-index: 1;
+	min-width: 100%;
+	min-height: 100%;
+	position: fixed;
+	top: 0;
+	height: 0;
+	visibility: hidden;
+	opacity: 1;
+	text-align: center;
+	padding-top: 20px;
+	transition: all 0.3s ease-in-out;
+
+	&.overlay {
+		visibility: visible;
+		opacity: 1;
+		padding-top: 100px;
+		background: #313F38;
+	}
+
+	ul {
+		padding: 0;
+	}
+
+	li {
+		list-style: none;
+	}
+
+	a {
+        color: #e6dcdc;
+        text-align: right;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 100% */
+        text-transform: uppercase;
+	}
+}
+
+
+@media screen and (min-width: 700px) {
+
+    .divv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 150px;
+    }
+     
+    .footer-last-title, .footer-title-star {
+        font-size: 140px;
+    }
+
+    .footer-img {
+        position: relative;
+        width: 220px;
+        top: -60px;
+    
+        bottom: 40%;
+        left: 70%;
+        z-index: 1;
+    }
+    .divv {
+        margin-top: 0;
+    }
+     
+}
+
+@media screen and (min-width: 900px) {
+ 
+    .sct-3-bookroom-btn {
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        position:absolute;
+    
+         top: 76%;
+        left: 80%; 
+    }
+    .divv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 280px;
+    }
+
+    .divv {
+        margin-top: 0;
+    }
+     
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+
+
+    .sct-1 {
+        height:  200px;
+        padding: 0px 30px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0;
+    } 
+
+    .sct-1-bankhotel {
+        margin: 10px;
+    }
+
+    .sct-1-texthotel {
+        display: flex;
+        margin-top: 0;
+        align-items: start;
+        text-align:start;
+    
+    }
+
+    /*  */
+
+    .ourgallery-sct {
+        margin-top: -100px;
+    }
+
+    /*  */
+
+    .sct-1-minimenu {
+        margin: 0px;
+    }
+
+    .sct-1-1st-btn {
+        display: block;
+ 
+    }
+
+    .sct-1-border {
+        display: none;
+    }
+
+
+    /* .sct-1-banner {
+        width: 1000px;
+        height: 500px;
+        margin: 0;
+        margin-left: -30px;
+
+    } */
+    
+    .sct-1-banner {
+        display: none;
+    }
+
+    .sct-1-bookroom-div {
+        display: none;
+    }
+
+    .sct-1-banner-responsive {
+        display: block;
+        height: 560px;
+        width: 96%;
+        margin: 0px 20px;
+    }
+
+    .sct-1-select-option {
+        position: absolute;
+        display: flex;
+        height: 80px;
+        background: transparent;
+        margin-right: 20px;
+
+    }
+
+    .sct1-checkin {
+        background: transparent;
+        width: 240px;
+        color:#FFFCF6;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px; 
+        text-transform: uppercase;
+
+    }
+
+    .sct1-checkout {
+        background: transparent;
+        width: 240px;
+        color:#FFFCF6;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px; 
+        text-transform: uppercase;
+    }
+
+    .sct-1-select-btn {
+        background-color: #FCD043;
+        width: 240px;
+        border: none;
+
+
+
+    }
+
+
+
+
+    .sct-1foot-info1 {
+        display: flex;
+    }
+
+    .sct-1foot-info1-p1 {
+        color: var(--Secondary-color, #FCD043);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+
+    }
+
+    .sct-1foot-info1-p2 {
+        color: var(--White, #FFFCF6);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+
+    }
+
+
+    .sct-2 {
+        display: none;
+    }
+
+
+    .sct-2-responsive {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .sct-2-aboutus {
+        position: absolute;
+        top: 0;
+        left: 200px;
+        text-align: center;
+        text-align: start;
+        margin-bottom: 0;
+        color: #FCD043;
+    }
+    
+    .sct-2-us {
+        margin-top: 0;
+        color: #FCD043;
+    }
+
+    .sct-2-r-aboutus {
+        position: relative;
+        display: flex;
+    }
+
+    .sct2-1div {
+        display: flex;
+        justify-self: center;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+
+
+    
+    }
+
+    .highquality-text {
+        padding-top: 60px;
+        width: 300px;
+        font-size: 14px;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+
+    .sct-3-70rooms {
+        display: none;
+    }
+
+    .sct-3-div-1 {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .sct-3-rooom-decoration {
+        display: flex;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+
+    .sct-3-rooms-apartments-container {
+        display: flex;
+        justify-content: space-between;
+
+    
+    }
+
+    .sct-3-rooms-apartments-content1 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 140px;
+    }
+
+
+
+
+    .sct-3-rooms-apartments-content2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+        height: 340px;
+    }
+
+    .sct-3rooms-content2-1st-p {
+        color: var(--Text, #1B3B36);
+        font-family: Miracle;
+        font-size: 36px;
+        line-height: normal;
+        letter-spacing: 1.08px;
+        text-transform: capitalize;
+        margin-top: 0px;
+    }
+
+    .sct-3rooms-content2-2nd-p {
+        color:  #1B3B36;
+        width: 250px;
+        height: 60px;
+        margin-top: 20px;
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+
+    .book-room-img {
+        height: 400px;
+    }
+
+    .sct-3-bookroom-btn {
+        left: 186px;
+        top: 260px;
+    }
+
+    .sct-3-content2-01-04 {
+
+        margin-top: 200px;
+        color: #1B3B36;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 400; 
+    }
+
+
+    .ct-3-content2-01-04-span {
+        color: rgba(27, 59, 54, 0.32);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .sct-4 {
+        height: 2200px;
+    }
+
+    .bankhotel-offers-p {
+        display: none;
+    }
+    .ourfacilities-imgdiv1 {
+        display: none;
+    }
+
+    .ourfacilities-container {
+        display: flex;
+        align-items: center;
+        margin-left: 300px;
+
+    }
+    
+    .sct-4-container-r-1 {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+    .ourfacilities-imgdiv-resposive {
+        margin-top: 120px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+
+    .bankhotel-offers-p-resposive {
+        width: 300px;
+        margin-top: 100px;
+        color: #1B3B36;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px; 
+    }
+
+    .sct-4-art-congress {
+        display: none;
+    }
+
+    .labelicon-ourfacilitiesimg {
+        position: relative;
+        top: 20px;
+        left: 220px;
+    }
+    .sct-4-art-congress-r {
+        text-align: end;
+        display: block;
+        width: 200px;
+        color: var(--Text, #1B3B36);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    
+    .ourfacilities-img1-rs {
+        position: absolute;
+        width: 240px;
+        height: 160px;
+        top: 60px;
+        margin: 10px;
+    }
+
+    .sct-4-ice-restaurant-container {
+        margin: 100px 20px;
+    }
+    
+    .sct-4-art-congress-rfull {
+        display: none;
+    }
+
+    .bankhotel-offers-p-resposive {
+        display: block;
+    }
+
+    .sct-4-div2-img1 {
+        display: none;
+    }
+    .ice-res-01 {
+        display: none;
+    }
+
+    .sct-4-div2-img1-r {
+        display: block;
+    }
+
+
+    .ice {
+        margin-top: 100px;
+    }
+    .ice-res-01-r {
+        display: block;
+        color: var(--Text, #1B3B36);
+        font-family: Miracle;
+        font-size: 36px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .ice-restaurant-art-congress {
+        margin-top: 40px;
+        width: 200px;
+        color: var(--Text, #1B3B36);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .ice-rs-02-03, .ice-rs-03-03{
+        display: none;
+    }
+
+    .ice-rs-02-nr-r, .ice-rs-03-nr-r {
+        display: flex;
+        align-items: center;
+    }
+    .ice-rs-02-03-responsive, .ice-rs-03-03-responsive{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nr-02-r, .nr-03-r {
+        color: #1B3B36;
+        font-family: Miracle;
+        font-size: 34px;
+        font-weight: 400;
+        text-transform: uppercase;
+        
+    }
+    .nr-02-r {
+        margin-left: -120px;
+    }
+
+    ._02-conf-hall-r, ._03-conf-hall-r {
+        color: #1B3B36;
+        font-family: Miracle;
+        font-size: 36px;
+        font-weight: 400;
+        letter-spacing: 1.08px;
+        text-transform: capitalize;
+
+    }
+
+    ._02-conf-hall-r {
+        margin-left: -200px;
+
+    }
+
+    .line-vector-2 {
+        display: block;
+        margin: 20px 0px;
+    }
+
+    .bestapartment1 {
+        display: none;
+    }
+
+    .sct-6-allroomdecoration-text {
+        left: 0;
+    }
+
+    .sct-6-best-apartments {
+        width: 100px;
+    }
+
+    .bestapartment1-r {
+        display: block;
+        position: relative;
+    }
+
+    .sct-6-allroomdecoration-text {
+        top: 120%;
+    }
+
+    .divv {
+        display: none;
+    }
+
+    .divv-r, .imggg01-r, .imggg02-r,.imggg03-r, .imggg04-r, .imggg00-r, .div-polygon-text-r {
+        position: absolute;
+    
+    
+    }
+    
+    .divv-r {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        width: 40%;
+    }
+     
+    
+    
+    .imggg01-r {
+        width: 150px;
+        height: 230px;
+        top: -100px;
+        left: 4%;
+    }
+    .imggg02-r {
+        width: 150px;
+        height: 190px;
+        top: 240px;
+        left: 10%;
+        
+    }
+    .imggg03-r{
+        display: flex;
+        justify-content: center;
+        top: 80px;
+        left: 70%;
+        width: 500px;
+        height: 340px;
+        z-index: 10;
+    
+    }
+    .imggg04-r{
+        top: 0px;
+        left: 210%;
+        z-index: 4;
+    }
+    .imggg00-r {
+        width: 240px;
+        height: 160px;
+        top: 480px;
+        left: 180%;
+    }
+
+    .div-polygon-text  {
+        display: none;
+    }
+
+    .div-polygon-text-r {
+        display: flex;
+        gap: 20px;
+        top: 500px;
+        left: 70%;
+        
+    }
+    .ourgallery-bankhotel-r {
+        display: block;
+    }
+
+    .div-ourgallery-bank-r {
+        margin-top: 600px;
+        color: rgba(255, 252, 246, 0.12);
+        font-family: Miracle;
+        font-size: 42px;
+        font-weight: 400;
+        line-height: 80px; 
+    }
+
+    .footer-last-title, .footer-title-star {
+        font-size: 150px;
+    }
+
+    .footer-img {
+        position: relative;
+        width: 240px;
+        top: -240px;
+    
+        bottom: 40%;
+        left: 70%;
+        z-index: 1;
+    }
+    
+    .footer-polygon-div {
+        display: none;
+    }
+
+    footer {
+        padding-bottom: 100px;
+    }
+
+    .checkout-div {
+        display: flex;
+        border: 2px solid  #1B3B36;
+        border-right: none;
+        padding: 10px;
+        padding-top: 20px;
+        width: 738px;
+        padding-right: 0px;
+        margin: 20px;
+        margin-top:-100px;
+        
+    }
+
+    .checkout-div1 {
+        margin-top: -200px;
+        
+    }
+
+    .footer-checkin {
+        margin-right: 40px;
+        color: #1B3B36;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+    .footer-checkout {
+        color: #1B3B36;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 40px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+    .footer-btn {
+        margin-top: -20px; 
+        margin-bottom: -10px;
+        background-color: #1B3B36; 
+        border:none; color: white; 
+        padding:20px 110px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+    .find-room {
+        display: block;
+        color:  #1B3B36;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        padding: 20px;
+        padding-bottom: 100px;
+        text-transform: uppercase;
+    }
+
+    .footer-div-infos {
+        display: flex;
+        padding: 40px;
+        justify-content: space-between;
+    }
+
+    .footer-aboutus, .footer-new, .footer-socials {
+        color: #1B3B36;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .footer-aboutus-text, .footer-new-text {
+        color:#1B3B36;
+        width: 230px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px; 
+    }
+
+    .footer-aboutuslast {
+        color:  #1B3B36;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        opacity: 0.2;
+    }
+
+    .footer-input {
+        border: none;
+        outline: none;
+
+    }
+
+    .footer-div-input {
+        border: 1px solid gray;
+        padding: 12px;
+        padding-bottom: 14px;
+    }
+
+    .footer-a {
+        color:  #1B3B36;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px; 
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
+    .footer-aboutuslastt {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+
+     #menu {
+        display: none;
+    }
+    .sct-1-div-star-p {
+        width: 200px;
+        padding: -10px;
+        display: flex;
+        border: 1px solid gray;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+
+    .sct-1-star-icon {
+        display: flex;
+        margin: 0;
+    }
+
+    .sct-1-star-p {
+      margin: 8px 0px;
+        align-items: center;
+        display: flex;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        text-transform: capitalize;
+    }
+
+    .sct-1-texthotel {
+        margin-top: 40px;
+    }
+
+    .sct-1-1st-btn {
+        display: none;
+    }
+
+    .sct-1-2nd-btn {
+        display: block;
+        margin-bottom: 40px;
+    }
+
+    .nav-list{
+        display: flex;
+    }
+
+    .tel-nr {
+        display: flex;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+    .sct-2-r-img2 {
+        margin-left: 100px;
+
+
+    }
+
+
+    .sct-3-rooms-apartments-content1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .sct-3-content1-img1 {
+        display: block;
+        margin-bottom: 100px;
+    } 
+
+    .sct-4-art-congress-rfull {
+        width: 200px;
+        text-align: start;
+        display: block;
+        color:  #1B3B36;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .labelicon-ourfacilitiesimg {
+        width: 100px;
+    }
+
+    .sct-4-art-congress-r{
+        display: none;
+    }
+
+    .ourfacilities-img2-r{
+        display: block;
+        margin-top: 60px;
+    }
+    .div-ourgallery-bank-r {
+        margin-top: 600px;
+        color: rgba(255, 252, 246, 0.12);
+        font-family: Miracle;
+        font-size: 54px;
+        font-weight: 400;
+        line-height: 80px; 
+    }
+
+}

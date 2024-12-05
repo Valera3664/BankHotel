@@ -1,0 +1,58 @@
+/* Gallery Section */
+.gallery {
+  padding: 2rem 0;
+  background-color: #f3f4f6;
+}
+
+.gallery h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #203a2e;
+  margin-bottom: 2rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Section */
+.footer {
+  background-color: #203a2e;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-logo h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.footer-menu {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.footer-menu li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.footer-menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.footer-contact p {
+  font-size: 1rem;
+}
